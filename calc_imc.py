@@ -12,6 +12,5 @@ def classficar(valor_imc):
         return "ACIMA DO PESO"
     
 
-#Mauricio]
-def calcular_imc (dsuodua)
+#Mauricio
 
