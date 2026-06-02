@@ -12,5 +12,10 @@ def classficar(valor_imc):
         return "ACIMA DO PESO"
     
 
-#Mauricio
+#Mauricio: Especialista em Conteúdo
+def gerar_aviso(status):
+    if status == "NORMAL":
+        return "Parabéns! Continue mantendo hábitos saudáveis."
+    else:
+        return "Atenção! Considere melhorar a alimentação e praticar atividades físicas."
 
