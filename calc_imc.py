@@ -20,13 +20,13 @@ def gerar_aviso(status):
 
 
 #Samuel:Engenheiro de Integração
-altura = (input("Digite sua Altura(m)"))
+altura = float(input("Digite sua Altura(m)"))
 peso = float(input("Digite seu Peso(kg)"))
 
 imc = calcular_imc(peso, altura)
-classificação = classificar(imc)
-status = gerar_aviso(classificação)
+classificacao = classificar(imc)
+status = gerar_aviso(classificacao)
 
 print(f"\nResultado da Avaliação: {imc:.2f}")
-print(f"Classificar dados: {classificação}")
+print(f"Classificar dados: {classificacao}")
 print(f"Recomendação: {status}")
