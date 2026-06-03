@@ -19,3 +19,14 @@ def gerar_aviso(status):
     else:
         return "Atenção! Considere melhorar a alimentação e praticar atividades físicas."
 
+
+#Samuel: Engenheiro de Integração
+peso = float(input("Digite seu peso (kg):"))
+altura = float(input("Digite sua altura (m):"))
+imc = calcular_imc(peso,altura)
+status = classficar(imc)
+aviso = gerar_aviso(status)
+print("\n=== RESULTADO DA AVALIAÇÃO ===")
+print(f"IMC:{imc:.2f}")
+print(f"Classificação:{status}")
+print(f"Recomendação:{aviso}")
