@@ -24,9 +24,9 @@ altura = (input("Digite sua Altura(m)"))
 peso = float(input("Digite seu Peso(kg)"))
 
 imc = calcular_imc(peso, altura)
-classificacao = classficar(imc)
-status = gerar_aviso(classificacao)
+classificação = classificar(imc)
+status = gerar_aviso(classificação)
 
 print(f"\nResultado da Avaliação: {imc:.2f}")
-print(f"Classificar dados: {classificacao}")
+print(f"Classificar dados: {classificação}")
 print(f"Recomendação: {status}")
